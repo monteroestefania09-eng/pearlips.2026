@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+
+<meta charset="UTF-8">
+
+<title>Catálogo | Pearl Lips</title>
+
+
+
+<style>
+
+body {font-family: Arial; margin:0; background:#E6E6FA;}
+
+header {background:#C71585; color:white; text-align:center; padding:2rem;}
+
+nav {background:#DB7093; text-align:center; padding:1rem;}
+
+nav a {margin:10px; color:#C71585; font-weight:bold; text-decoration:none;}
+
+
+
+.container {
+
+display: grid;
+
+grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+
+gap: 20px;
+
+padding: 30px;
+
+}
+
+
+
+.card {
+
+background:white;
+
+border-radius:10px;
+
+text-align:center;
+
+padding:15px;
+
+box-shadow:0 5px 10px rgba(0,0,0,0.1);
+
+}
+
+
+
+.card img {
+
+width:100%;
+
+height:200px;
+
+object-fit:cover;
+
+border-radius:10px;
+
+}
+
+
+
+h3 {color:#C71585;}
+
+</style>
+
+</head>
+
+
+
+<body>
+
+
+
+<header>
+
+<h1>Catálogo Pearl Lips</h1>
+
+<p>Nuestros gloss</p>
+
+</header>
+
+
+
+<nav>
+
+<a href="index.html">Inicio</a>
+
+<a href="nosotros.html">Nosotros</a>
+
+<a href="catalogo.html">Catálogo</a>
+
+</nav>
+
+
+
+<div class="container">
+
+
+
+<div class="card">
+
+<img src="https://i.pinimg.com/564x/9f/6b/47/9f6b47c9b5d0a80f9a6b5a7c3b59d4d3.jpg">
+
+<h3>Gloss Rosado</h3>
+
+<p>Brillo natural hidratante</p>
+
+</div>
+
+
+
+<div class="card">
+
+<img src="https://i.pinimg.com/564x/8d/7c/2e/8d7c2e9b9c3a4c6b3a5e5d7a4c3b2a1f.jpg">
+
+<h3>Gloss Brillante</h3>
+
+<p>Efecto shimmer</p>
+
+</div>
+
+
+
+<div class="card">
+
+<img src="https://i.pinimg.com/564x/2c/9f/7d/2c9f7d6e8b7a4d3c9e5f6a7b8c9d0e1f.jpg">
+
+<h3>Gloss Natural</h3>
+
+<p>Ingredientes naturales</p>
+
+</div>
+
+
+
+</div>
+
+
+
+</body>
+
+</html>
+
