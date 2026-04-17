@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>PEARL LIPS | ElectricLedo</title>
+
+  <style>
+
+    :root {
+
+      /* Paleta Naranja */
+
+      --naranja-fuerte: #C71585;    
+
+      --naranja-suave: #E6E6FA ;     
+
+      --naranja-pastel: #FFB6C1;    
+
+      --naranja-crema: #DB7093;     
+
+      --texto-oscuro: #C71585;      
+
+      --blanco: #E6E6FA;
+
+    }
+
+ 
+
+    body {
+
+      font-family: "Segoe UI", Arial, Sans-Serif;
+
+      margin: 0;
+
+      line-height: 1.6; 
+
+      color: var(--texto-oscuro);
+
+      background-color: var(--blanco);
+
+    }
+
+ 
+
+    /* Encabezado Llamativo */
+
+    header {
+
+      background-color: var(--naranja-fuerte);
+
+      color: white;
+
+      padding: 3rem 1.5rem; /* Más espacio para que resalte */
+
+      text-align: center;
+
+      border-bottom: 8px solid var(--naranja-suave);
+
+    }
+
+ 
+
+    header h1 {
+
+      margin: 0;
+
+      font-size: 3rem; /* Tamaño grande y llamativo */
+
+      text-transform: uppercase;
+
+      letter-spacing: 2px;
+
+      text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+
+    }
+
+ 
+
+    header p {
+
+      font-size: 1.2rem;
+
+      opacity: 0.9;
+
+      margin-top: 10px;
+
+    }
+
+ 
+
+    nav {
+
+      background-color: var(--naranja-crema);
+
+      display: flex;
+
+      justify-content: center;
+
+      z-index: 1000;
+
+      padding: 1rem;
+
+      position: sticky;
+
+      top: 0;
+
+      box-shadow: 0 2px 5px rgba(255, 107, 0, 0.1);
+
+    }
+
+ 
+
+    nav a {
+
+      text-decoration: none;
+
+      color: var(--naranja-fuerte);
+
+      font-weight: bold;
+
+      margin: 0 15px;
+
+      text-transform: uppercase;
+
+      font-size: 0.9rem;
+
+      transition: 0.3s;
+
+    }
+
+ 
+
+    nav a:hover {
+
+      color: var(--texto-oscuro);
+
+    }
+
+ 
+
+    .container {
+
+      max-width: 1000px;
+
+      margin: 2rem auto;
+
+      padding: 0 20px;
+
+    }
+
+ 
+
+    h2, h3 {
+
+      color: var(--naranja-fuerte);
+
+      border-bottom: 3px solid var(--naranja-crema);
+
+      display: inline-block;
+
+      padding-bottom: 5px;
+
+    }
+
+ 
+
+    /* Cards de Productos */
+
+    .card {
+
+      border: 1px solid var(--naranja-crema);
+
+      border-radius: 12px;
+
+      overflow: hidden;
+
+      transition: transform 0.3s, box-shadow 0.3s;
+
+      text-align: center;
+
+      padding-bottom: 15px;
+
+      background-color: white;
+
+    }
+
+ 
+
+    .card:hover {
+
+      transform: translateY(-5px);
+
+      box-shadow: 0 8px 20px rgba(255, 107, 0, 0.15);
+
+    }
+
+ 
+
+    .card img {
+
+      width: 100%;
+
+      height: 250px;
+
+      object-fit: contain; 
+
+      background-color: var(--naranja-pastel);
+
+      padding: 15px;
+
+      box-sizing: border-box;
+
+    }
+
+ 
+
+    /* Formulario */
+
+    .contact-form {
+
+      background: var(--naranja-pastel);
+
+      padding: 30px;
+
+      border-radius: 12px;
+
+      border: 2px solid var(--naranja-crema);
+
+      margin-top: 3rem;
+
+    }
+
+ 
+
+    .form-group {
+
+      margin-bottom: 15px;
+
+    }
+
+ 
+
+    label {
+
+      display: block;
+
+      margin-bottom: 5px;
+
+      font-weight: bold;
+
+      color: var(--naranja-fuerte);
+
+    }
+
+ 
+
+    input, textarea {
+
+      width: 100%;
+
+      padding: 12px;
+
+      border: 2px solid var(--naranja-crema);
+
+      border-radius: 8px;
+
+      box-sizing: border-box;
+
+      outline: none;
+
+      transition: 0.3s;
+
+    }
+
+ 
+
+    input:focus, textarea:focus {
+
+      border-color: var(--naranja-fuerte);
+
+    }
+
+ 
+
+    button {
+
+      background-color: var(--naranja-fuerte);
+
+      color: white;
+
+      padding: 15px 25px;
+
+      border: none;
+
+      border-radius: 8px;
+
+      cursor: pointer;
+
+      font-size: 1.1rem;
+
+      font-weight: bold;
+
+      width: 100%;
+
+      transition: 0.3s;
+
+    }
+
+ 
+
+    button:hover {
+
+      background-color: var(--texto-oscuro);
+
+      transform: scale(1.01);
+
+    }
+
+ 
+
+    footer {
+
+      background-color: var(--naranja-fuerte);
+
+      color: white;
+
+      text-align: center;
+
+      padding: 1.5rem;
+
+      margin-top: 4rem;
+
+    }
+
+  </style>
+
+</head>
+
+<body>
+
+ 
+
+  <header>
+
+    <h1>PEARL LIPS</h1>
+
+    <p>Brillo natural, esencia de perla</p>
+
+  </header>
+
+ 
+
+  <nav>
+
+    <a href="#inicio">inicio</a>
+
+    <a href="#productos">productos</a>
+
+    <a href="#servicios">servicios</a>
+
+    <a href="#contacto">contáctenos</a>
+
+  </nav>
+
+ 
+
+  <div class="container">
+
+    <section id="productos">
+
+      <h3>Catálogo Destacado</h3>
+
+      <div class="card">
+
+        <img src="https://png.pngtree.com/png-clipart/20230916/original/pngtree-pink-lips-sticker-for-advertising-and-product-promotions-with-glitter-clipart-png-image_12251482.png" alt="Sticker Labios">
+
+        <p><b>gloss hidratantes y naturales</b></p>
+
+      </div>
+
+    </section>
+
+ 
+
+    <section id="contacto">
+
+      <div class="contact-form">
+
+        <h2>Solicitar Cotización</h2>
+
+        <p>Déjanos tus datos y un especialista se pondrá en contacto contigo.</p>
+
+        <form>
+
+          <div class="form-group">
+
+            <label for="nombre">Nombre Completo</label>
+
+            <input type="text" id="nombre" placeholder="Ej: Juan Pérez" required>
+
+          </div>
+
+          
+
+          <div class="form-group">
+
+            <label for="email">Correo Electrónico</label>
+
+            <input type="email" id="email" placeholder="correo@empresa.com" required>
+
+          </div>
+
+ 
+
+          <div class="form-group">
+
+            <label for="mensaje">Detalles del Pedido</label>
+
+            <textarea id="mensaje" rows="5" placeholder="Cuéntanos la necesidad de tus labios..."></textarea>
+
+          </div>
+
+ 
+
+          <button type="submit">Enviar Solicitud</button>
+
+        </form>
+
+      </div>
+
+    </section>
+
+  </div>
+
+ 
+
+
+  <footer>
+
+<nav>
+
+  <a href="index.html">inicio</a>
+
+  <a href="nosotros.html">nosotros</a>
+
+  <a href="catalogo.html">catálogo</a>
+
+  <a href="#contacto">contáctenos</a>
+
+</nav>
+
