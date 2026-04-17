@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+
+<meta charset="UTF-8">
+
+<title>Nosotros | Pearl Lips</title>
+
+
+
+<style>
+
+body {font-family: Arial; margin:0; background:#E6E6FA; color:#C71585;}
+
+header {background:#C71585; color:white; text-align:center; padding:2rem;}
+
+nav {background:#DB7093; text-align:center; padding:1rem;}
+
+nav a {margin:10px; color:#C71585; font-weight:bold; text-decoration:none;}
+
+
+
+.container {max-width:900px; margin:auto; padding:20px;}
+
+
+
+h2 {
+
+border-bottom:2px solid #DB7093;
+
+margin-top:30px;
+
+}
+
+
+
+.box {
+
+background:white;
+
+padding:20px;
+
+margin:15px 0;
+
+border-radius:10px;
+
+line-height:1.6;
+
+}
+
+
+
+ul {
+
+padding-left:20px;
+
+}
+
+</style>
+
+</head>
+
+
+
+<body>
+
+
+
+<header>
+
+<h1>PEARL LIPS</h1>
+
+<p>Horizonte Institucional</p>
+
+</header>
+
+
+
+<nav>
+
+<a href="index.html">Inicio</a>
+
+<a href="nosotros.html">Nosotros</a>
+
+<a href="catalogo.html">Catálogo</a>
+
+</nav>
+
+
+
+<div class="container">
+
+
+
+<h2>Misión</h2>
+
+<div class="box">
+
+Promover el autocuidado, la confianza y la autenticidad mediante productos cosméticos de alta calidad, innovadores y accesibles. Consolidando a Pearl Lips como una marca comprometida con la excelencia, la sostenibilidad y el bienestar de sus consumidores con productos especializados en el cuidado de los labios, formulados con ingredientes naturales, seguros y responsables con el medio ambiente, que contribuyan a hidratar, proteger y resaltar la belleza natural de cada persona.
+
+</div>
+
+
+
+<h2>Visión</h2>
+
+<div class="box">
+
+Consolidarnos como una marca líder en la localidad de Bosa, enfocada en el mercado de gloss naturales en 5 años, destacándonos por transformar el cuidado de los labios en una experiencia de amor propio, confianza y belleza consciente. Buscamos innovar constantemente con ingredientes naturales y sostenibles, promoviendo el autocuidado y el brillo natural de cada persona, mientras contribuimos al bienestar de nuestros clientes y al cuidado del medio ambiente, llevando la esencia de Pearl Lips a todas las personas.
+
+</div>
+
+
+
+<h2>Objetivo General</h2>
+
+<div class="box">
+
+Posicionar a Pearl Lips como una marca competitiva, reconocida a nivel sector en el mercado de productos para el cuidado de los labios, mediante el desarrollo, producción y comercialización de productos de alta calidad, la cual tendrá como objetivo resaltar la belleza impartida naturalmente en cada persona y generar confianza en nuestros consumidores, para de esta manera contribuir al bienestar de las personas y al cuidado responsable del medio ambiente en un lapso de tiempo de cinco años.
+
+</div>
+
+
+
+<h2>Objetivos Específicos</h2>
+
+<div class="box">
+
+<ul>
+
+<li>Impulsar el crecimiento progresivo de la empresa mediante la mejora continua de los productos, la innovación en formulaciones naturales y la expansión de su presencia en el mercado nacional.</li>
+
+
+
+<li>Generar confianza y fidelidad en los consumidores mediante productos seguros, eficaces, elaborados bajo principios de calidad, responsabilidad ambiental y compromiso con el bienestar de las personas.</li>
+
+
+
+<li>Fomentar el autocuidado y la confianza personal en los consumidores mediante productos que resalten la belleza natural de cada persona y promuevan una relación positiva con el cuidado personal.</li>
+
+</ul>
+
+</div>
+
+
+
+<h2>Políticas Empresariales</h2>
+
+
+
+<div class="box">
+
+<b>1. Política de calidad del producto</b>
+
+<ul>
+
+<li>Textura suave y no pegajosa.</li>
+
+<li>Brillo uniforme y duradero.</li>
+
+<li>Aroma ligero y agradable.</li>
+
+<li>Envases resistentes y bien sellados.</li>
+
+<li>Ingredientes seguros para el uso cosmético.</li>
+
+</ul>
+
+Cada producto es revisado antes de ser entregado para asegurar que esté en perfectas condiciones, sin fugas, daños o defectos.
+
+</div>
+
+
+
+<div class="box">
+
+<b>2. Política de higiene y seguridad</b>
+
+<ul>
+
+<li>Los productos se elaboran con manos limpias y superficies desinfectadas.</li>
+
+<li>Se utilizan utensilios exclusivos para la preparación de los glosses.</li>
+
+<li>Los envases son nuevos y esterilizados antes del uso.</li>
+
+<li>No se reutilizan aplicadores ni recipientes.</li>
+
+<li>Los productos son de uso personal y no deben compartirse.</li>
+
+</ul>
+
+Esto garantiza una experiencia segura y confiable para el cuidado de los labios.
+
+</div>
+
+
+
+<div class="box">
+
+<b>3. Política de atención al cliente</b>
+
+<ul>
+
+<li>Responder mensajes en un tiempo de 24 horas.</li>
+
+<li>Brindar información clara sobre tonos, precios y disponibilidad.</li>
+
+<li>Tratar a todos los clientes con respeto y amabilidad.</li>
+
+<li>Ayudar al cliente a elegir el gloss ideal.</li>
+
+<li>Mantener comunicación durante el proceso del pedido.</li>
+
+</ul>
+
+</div>
+
+
+
+<div class="box">
+
+<b>4. Política de transparencia</b>
+
+<ul>
+
+<li>Las fotos describen el acabado real del producto.</li>
+
+<li>Se informa si un producto es edición limitada.</li>
+
+<li>Se comunican cambios de precio o disponibilidad.</li>
+
+<li>No se promete un efecto que el producto no pueda cumplir.</li>
+
+</ul>
+
+</div>
+
+
+
+<div class="box">
+
+<b>5. Política de cambios y devoluciones</b>
+
+<ul>
+
+<li>Solo se aceptan cambios por defectos de fábrica.</li>
+
+<li>El cliente debe reportar el problema en 24–48 horas.</li>
+
+<li>El producto no debe estar usado en exceso.</li>
+
+<li>Se debe enviar evidencia (foto o video).</li>
+
+<li>No se hacen devoluciones por gusto personal.</li>
+
+</ul>
+
+Pearl Lips evaluará cada caso para ofrecer una solución adecuada.
+
+</div>
+
+
+
+</div>
+
+
+
+</body>
+
+</html>
+
