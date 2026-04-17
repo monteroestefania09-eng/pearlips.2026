@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+
+
+<head>
+
+<meta charset="UTF-8">
+
+
+
+
+
+<style>
+
+
+
+body {font-family: Arial; margin:0; background:#E6E6FA;}
+
+
+
+header {background:#C71585; color:white; text-align:center; padding:2rem;}
+
+
+
+.container {
+
+display: grid;
+
+grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+
+gap: 25px;
+
+padding: 40px;
+
+}
+
+
+
+.card {
+
+background:white;
+
+border-radius:12px;
+
+padding:20px;
+
+box-shadow:0 6px 15px rgba(199,21,133,0.15);
+
+border: 2px solid #DB7093;
+
+transition: 0.3s;
+
+}
+
+
+
+.card:hover {
+
+transform: translateY(-5px);
+
+box-shadow:0 10px 25px rgba(199,21,133,0.25);
+
+}
+
+
+
+.card h4 {
+
+color:#C71585;
+
+margin-bottom:10px;
+
+font-size:1.2rem;
+
+}
+
+
+
+.card p {
+
+color:#555;
+
+font-size:0.95rem;
+
+}
+
+
+
+h3 {
+
+color:#C71585;
+
+text-align:center;
+
+margin-top:30px;
+
+}
+
+
+
+</style>
+
+</head>
+
+
+
+<body>
+
+<nav>
+
+
+
+
+
+
+
+</style>
+
+
+
+</head>
+
+
+
+
+
+
+
+<body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</nav>
+
+
+
+
+
+
+
+<div class="container">
+
+
+
+</nav>
+
+<header>
+
+<h1>Pearl Lips</h1>
+
+<p>Servicios Brindados</p>
+
+</header>
+
+
+
+<section id="servicios">
+
+
+
+<h3>Servicios Brindados</h3>
+
+
+
+<div class="container">
+
+
+
+<div class="card">
+
+<h4>Encuentra el gloss que parece hecho para ti</h4>
+
+<p>No es solo brillo… es identidad. Descubre el tono, la textura y el acabado que resalta lo mejor de ti y convierte lo simple en inolvidable.</p>
+
+<p>En Pearl Lips te brindamos asesoramiento según tus preferencias y la favorabilidad que te ofrezcan nuestros tonos para tu colorimetría.</p>
+
+</div>
+
+
+
+<div class="card">
+
+<h4>Labios que se sienten tan bien como se ven</h4>
+
+<p>No escondas tus labios, cuídalos. Te guiamos para devolverles suavidad, hidratación y ese glow natural que roba miradas.</p>
+
+</div>
+
+
+
+<div class="card">
+
+<h4>Regala más que un gloss, regala una experiencia</h4>
+
+<p>Cada detalle cuenta. Diseñamos kits únicos que emocionan, sorprenden y hacen que cualquier momento sea especial.</p>
+
+<p>Tú especificas qué productos quieres que contenga tu kit para que esa persona especial quede fascinada y sea un detalle que ilumine sus labios, su sonrisa y su corazón.</p>
+
+</div>
+
+
+
+<div class="card">
+
+<h4>Un toque de magia, cada mes</h4>
+
+<p>No vuelvas a usar lo mismo de siempre. Recibe glosses exclusivos que renuevan tu estilo y te hacen sentir siempre nueva.</p>
+
+<p>Refresca tus labios y adquiere esta colección mensual que innova tu estilo.</p>
+
+</div>
+
+
+
+<div class="card">
+
+<h4>Aprende el arte del brillo perfecto</h4>
+
+<p>No es maquillaje, es actitud. Descubre tips, secretos y tendencias para llevar tu look al siguiente nivel, resaltando tus labios y favoreciendo tus facciones.</p>
+
+</div>
+
+
+
+<div class="card">
+
+<h4>Belleza que también transforma vidas</h4>
+
+<p>Tu brillo puede iluminar más que tu rostro. Cada compra apoya iniciativas que empoderan, cuidan y transforman historias reales.</p>
+
+</div>
+
+     <div class="container">
+
+
+
+    <section id="productos">
+
+        <p><b>gloss hidratantes y naturales</b></p>
+
+<footer
+
+      background-color: var(--naranja-fuerte);
+
+
+
+      color: white;
+
+
+
+      text-align: center;
+
+
+
+      padding: 1.5rem;
+
+
+
+      margin-top: 4rem;
+
+
+
+      </div>
+
+
+
+    </section>
+
+
+
+  <footer>
+
+
+
+    <p>&copy; 2026 Pear Lips</p>
+
+
+
+  </footer>
+
+
+
+
+
+
+
+</body>
+
+
+
+</html>
+
